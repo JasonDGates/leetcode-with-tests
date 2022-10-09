@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1665355072432" clover="3.2.0">
+  <project timestamp="1665355072432" name="All files">
+    <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2" elements="24" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
+    <package name="containsDuplicates">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="containsDuplicates.js" path="/Users/jasongates/Desktop/Leetcode/containsDuplicates/containsDuplicates.js">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="validAnagram">
+      <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="validAnagram.js" path="/Users/jasongates/Desktop/Leetcode/validAnagram/validAnagram.js">
+        <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="17" count="8" type="cond" truecount="4" falsecount="0"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="7" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
