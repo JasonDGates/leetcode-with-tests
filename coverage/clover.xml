@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665355072432" clover="3.2.0">
-  <project timestamp="1665355072432" name="All files">
-    <metrics statements="14" coveredstatements="14" conditionals="8" coveredconditionals="7" methods="2" coveredmethods="2" elements="24" coveredelements="23" complexity="0" loc="14" ncloc="14" packages="2" files="2" classes="2"/>
+<coverage generated="1665431387006" clover="3.2.0">
+  <project timestamp="1665431387006" name="All files">
+    <metrics statements="32" coveredstatements="25" conditionals="10" coveredconditionals="7" methods="6" coveredmethods="5" elements="48" coveredelements="37" complexity="0" loc="32" ncloc="32" packages="3" files="3" classes="3"/>
     <package name="containsDuplicates">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="containsDuplicates.js" path="/Users/jasongates/Desktop/Leetcode/containsDuplicates/containsDuplicates.js">
@@ -9,6 +9,30 @@
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="3" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="groupAnagrams">
+      <metrics statements="18" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="groupAnagrams.js" path="/Users/jasongates/Desktop/Leetcode/groupAnagrams/groupAnagrams.js">
+        <metrics statements="18" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="53" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
       </file>
     </package>
     <package name="validAnagram">
