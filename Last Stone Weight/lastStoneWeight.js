@@ -89,3 +89,8 @@ var lastStoneWeight = function (stones) {
   if (heap.size) return heap.peek();
   return 0;
 };
+
+module.exports = {
+  lastStoneWeight,
+  Heap,
+};
