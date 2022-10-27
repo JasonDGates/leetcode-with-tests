@@ -17,7 +17,7 @@
   return true;
 };
 
-module.exports = validPalindrome;
+module.exports = isPalindrome;
 // Time complexity: O(n)
 // n = string.length
 // technically it would be O(3n) since .toLowerCase and .replace are both O(n) and then the while loop is another O(n) but since we ignore the 3 before n its just O(n)
