@@ -64,3 +64,5 @@ const isValidSudoku = function (board) {
   // Time Complexity = O(1)
   // Space Complexity = O(1)
 };
+
+module.exports = isValidSudoku;

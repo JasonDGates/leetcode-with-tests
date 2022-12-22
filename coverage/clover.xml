@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1665431387006" clover="3.2.0">
-  <project timestamp="1665431387006" name="All files">
-    <metrics statements="32" coveredstatements="25" conditionals="10" coveredconditionals="7" methods="6" coveredmethods="5" elements="48" coveredelements="37" complexity="0" loc="32" ncloc="32" packages="3" files="3" classes="3"/>
-    <package name="containsDuplicates">
+<coverage generated="1670789095617" clover="3.2.0">
+  <project timestamp="1670789095617" name="All files">
+    <metrics statements="34" coveredstatements="34" conditionals="10" coveredconditionals="9" methods="7" coveredmethods="7" elements="51" coveredelements="50" complexity="0" loc="34" ncloc="34" packages="4" files="4" classes="4"/>
+    <package name="Container With Most Water">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="maxArea.js" path="/Users/jasongates/Desktop/Leetcode/Container With Most Water/maxArea.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Contains Duplicates">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="containsDuplicates.js" path="/Users/jasongates/Desktop/Leetcode/containsDuplicates/containsDuplicates.js">
+      <file name="containsDuplicates.js" path="/Users/jasongates/Desktop/Leetcode/Contains Duplicates/containsDuplicates.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="26" count="3" type="stmt"/>
         <line num="27" count="3" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="groupAnagrams">
-      <metrics statements="18" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
-      <file name="groupAnagrams.js" path="/Users/jasongates/Desktop/Leetcode/groupAnagrams/groupAnagrams.js">
-        <metrics statements="18" coveredstatements="11" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="3"/>
+    <package name="Group Anagrams">
+      <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="groupAnagrams.js" path="/Users/jasongates/Desktop/Leetcode/Group Anagrams/groupAnagrams.js">
+        <metrics statements="18" coveredstatements="18" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
-        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="45" count="0" type="stmt"/>
-        <line num="46" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
-        <line num="51" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="53" count="1" type="stmt"/>
+        <line num="39" count="6" type="stmt"/>
+        <line num="40" count="6" type="stmt"/>
+        <line num="41" count="18" type="stmt"/>
+        <line num="43" count="6" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="6" type="stmt"/>
+        <line num="48" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
         <line num="54" count="1" type="stmt"/>
-        <line num="56" count="0" type="stmt"/>
-        <line num="59" count="1" type="stmt"/>
+        <line num="55" count="3" type="stmt"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
       </file>
     </package>
-    <package name="validAnagram">
+    <package name="Valid Anagram">
       <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
-      <file name="validAnagram.js" path="/Users/jasongates/Desktop/Leetcode/validAnagram/validAnagram.js">
+      <file name="validAnagram.js" path="/Users/jasongates/Desktop/Leetcode/Valid Anagram/validAnagram.js">
         <metrics statements="11" coveredstatements="11" conditionals="8" coveredconditionals="7" methods="1" coveredmethods="1"/>
         <line num="1" count="1" type="stmt"/>
         <line num="3" count="2" type="cond" truecount="1" falsecount="1"/>

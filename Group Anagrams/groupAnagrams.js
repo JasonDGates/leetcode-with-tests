@@ -4,7 +4,7 @@
  */
 
 const groupAnagrams = function(strs) {
-  const codes = {
+  const CODES = {
     a: 0,
     b: 1,
     c: 2,
@@ -34,6 +34,15 @@ const groupAnagrams = function(strs) {
   };
   const result = [];
   const hashMap = new Map();
+
+  const hashWord = function(word) {
+    const hash = new Array(26).fill(0);
+    for (const letter of word) {
+        ++hash[CODES[letter]]
+    }
+    return hash.toString();
+  }
+
   strs.forEach(word => {
     const hashedWord = hashWord(word);
     if (!hashMap.has(hashedWord)) {
@@ -46,14 +55,7 @@ const groupAnagrams = function(strs) {
     result.push(ele);
   })
   return result;
-  };
+};
 
-  const hashWord = function(word) {
-  const hash = new Array(26).fill(0);
-  for (const letter of word) {
-      ++hash[codes[letter]]
-  }
-  return hash.toString();
-}
 
 module.exports = groupAnagrams;
