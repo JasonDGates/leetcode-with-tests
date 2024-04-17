@@ -1,61 +1,32 @@
-/**
- * @param {string[]} strs
- * @return {string[][]}
- */
+const groupAnagrams = function(arrayOfStrings) {
+    const hashString = function(string) {
+        const characterCount = Array(26).fill(0);
+        for (const character of string) {
+            characterCount[character.charCodeAt(0) - 'a'.charCodeAt(0)]++;
+        }
 
-const groupAnagrams = function(strs) {
-  const CODES = {
-    a: 0,
-    b: 1,
-    c: 2,
-    d: 3,
-    e: 4,
-    f: 5,
-    g: 6,
-    h: 7,
-    i: 8,
-    j: 9,
-    k: 10,
-    l: 11,
-    m: 12,
-    n: 13,
-    o: 14,
-    p: 15,
-    q: 16,
-    r: 17,
-    s: 18,
-    t: 19,
-    u: 20,
-    v: 21,
-    w: 22,
-    x: 23,
-    y: 24,
-    z: 25,
-  };
-  const result = [];
-  const hashMap = new Map();
+        const result = [];
+        for (let i = 0; i < 26; i++) {
+            if (characterCount[i] !== 0) {
+                result.push(String.fromCharCode(i + 'a'.charCodeAt(0)), characterCount[i].toString());
+            }
+        }
 
-  const hashWord = function(word) {
-    const hash = new Array(26).fill(0);
-    for (const letter of word) {
-        ++hash[CODES[letter]]
+        return result.join('');
+    };
+
+    const result = [];
+    const groupsOfAnagrams = new Map();
+
+    for (const string of arrayOfStrings) {
+        const hashedString = hashString(string);
+        if (!groupsOfAnagrams.has(hashedString)) {
+            groupsOfAnagrams.set(hashedString, [])
+        }
+        groupsOfAnagrams.get(hashedString).push(string)
     }
-    return hash.toString();
-  }
 
-  strs.forEach(word => {
-    const hashedWord = hashWord(word);
-    if (!hashMap.has(hashedWord)) {
-      hashMap.set(hashedWord, []);
-    }
-    hashMap.get(hashedWord).push(word);
-  });
+    groupsOfAnagrams.forEach(group => result.push(group))
 
-  hashMap.forEach(ele => {
-    result.push(ele);
-  })
-  return result;
+    return result;
 };
-
-
-module.exports = groupAnagrams;
