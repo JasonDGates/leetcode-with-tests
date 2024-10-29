@@ -25,6 +25,7 @@ function validAnagram(s, t) {
     for (const char of t) {
       if (!charCount[char]) return false; // Character not in s or used too many times
       charCount[char] -= 1;
+      if (charCount[char] < 0) return false;
     }
   
     return true; // All counts balanced

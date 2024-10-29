@@ -46,4 +46,7 @@ describe('validAnagram', () => {
   it('should handle anagrams with uppercase letters as distinct characters from lowercase', () => {
     expect(validAnagram("Hello", "hello")).toBe(false);
   });
+  it('should handle invalid anagrams with the same length letters but more of a single letter in the second word', () => {
+    expect(validAnagram("aaabbbcccff", "aaabbbccccc")).toBe(false);
+  });
 });
